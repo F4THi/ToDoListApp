@@ -1,0 +1,95 @@
+.main-box {
+	margin: 20px auto;
+	max-width: 500px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.box-header {
+	color: #000;
+	background-color: #f1f1f1;
+	padding-left: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.box-footer {
+	color: #000;
+	background-color: #f1f1f1;
+	padding-left: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.lst-none {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.list-item {
+	padding: 6px 2px 6px 16px;
+	border-bottom: 1px solid #ddd;
+}
+
+.warning-message {
+	color: red;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 12px;
+}
+
+.table-display::after,
+::before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.text-input {
+	padding: 8px 16px!important;
+	border: 1px solid #ccc!important;
+	display: block;
+	width: 100%;
+}
+
+.input-side {
+	width: 83.33333%;
+	float: left;
+}
+
+.btn-side {
+	width: 16.66666%;
+	float: left;
+}
+
+.custom-button {
+	padding: 9px 16px!important;
+	border: none;
+	border-radius: 0;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.form-container {
+	color: #000!important;
+	background-color: #f1f1f1!important;
+	padding: 2px 16px;
+	padding-top: 16px!important;
+	padding-bottom: 16px!important;
+}
+
+.form-part {
+	width: 99.99999%;
+	float: left;
+}
+
+.delete-symbol {
+	cursor: default!important;
+	margin-right: 16px!important;
+	float: right!important;
+}
+
+.c-p {
+	cursor: pointer;
+}
